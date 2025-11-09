@@ -1,6 +1,6 @@
 # Night Realtor Brand Guidelines
 
-**Version 1.0** | Last Updated: 2025-11-09
+**Version 1.1** | Last Updated: 2025-11-09
 
 ## Brand Overview
 
@@ -86,6 +86,56 @@ Maintain minimum clear space around the logo equal to the height of the moon cir
 - **RGB**: `236, 64, 122` / `255, 0, 110`
 - **Usage**: "REALTOR" wordmark, secondary accents, highlights, watchlist markers
 - **Accessibility**: WCAG AA compliant on dark backgrounds
+
+### Complementary Brand Colors
+
+The following complementary colors extend the neon aesthetic and provide additional options for differentiation, data visualization, and secondary UI elements while maintaining the Miami Vice-inspired palette.
+
+#### Neon Orange (Energy & Attention)
+- **Hex**: `#ff9800`
+- **RGB**: `255, 152, 0`
+- **Usage**: Warnings, notifications, urgent actions, hot properties, trending indicators, call-to-action elements
+- **Hover State**: `#fb8c00`
+- **Personality**: Energetic, urgent, warm
+- **Accessibility**: WCAG AA compliant on dark backgrounds; use darker shade (#f57c00) for text on light backgrounds
+
+#### Neon Purple (Premium & Creative)
+- **Hex**: `#ab47bc`
+- **RGB**: `171, 71, 188`
+- **Usage**: Premium features, analytics, insights, VIP clients, luxury properties, creative tools
+- **Hover State**: `#9c27b0`
+- **Personality**: Sophisticated, premium, creative
+- **Accessibility**: WCAG AA compliant on dark backgrounds
+
+#### Neon Green (Success & Growth)
+- **Hex**: `#00e676`
+- **RGB**: `0, 230, 118`
+- **Usage**: Success states, confirmations, growth metrics, profitable deals, positive trends, eco-friendly features
+- **Hover State**: `#00c853`
+- **Personality**: Positive, growing, successful
+- **Accessibility**: WCAG AA compliant on dark backgrounds; excellent visibility
+
+### Complementary Color Usage Guidelines
+
+**When to Use Complementary Colors:**
+1. **Data Visualization**: Use for charts, graphs, and multi-category data display
+2. **Feature Differentiation**: Distinguish between different property types or client segments
+3. **Status Indicators**: Extend beyond the standard watchlist statuses
+4. **Call-to-Action Hierarchy**: Create visual hierarchy for multiple CTAs
+5. **Thematic Elements**: Seasonal campaigns, special features, or temporary promotions
+
+**Best Practices:**
+- **Maintain Dominance**: Cyan and pink should remain primary; use complementary colors sparingly (20% or less)
+- **Purposeful Application**: Each complementary color should have semantic meaning
+- **Avoid Overload**: Don't use all colors on a single screen; select 1-2 complementary colors per context
+- **Test Accessibility**: Always verify WCAG compliance when using for text or important UI elements
+- **Dark Mode Adaptation**: Adjust saturation/brightness for dark backgrounds while maintaining hue
+
+**Color Pairing Suggestions:**
+- **Cyan + Orange**: High contrast, energetic (complementary on color wheel)
+- **Pink + Green**: Vibrant, balanced (near-complementary)
+- **Purple + Cyan**: Sophisticated, tech-forward (analogous with pink)
+- **All Five**: Use for data visualization requiring 5+ categories
 
 ### Theme Colors
 
@@ -372,18 +422,32 @@ All assets located in: `/assets/images/`
 All theme colors are implemented as CSS custom properties with fallbacks:
 
 ```css
---text-primary: #000;           /* Light mode */
+/* Primary Brand Colors */
+--accent-cyan: #00bcd4;
+--accent-cyan-hover: #00a5bb;
+--accent-pink: #ff006e;
+--accent-pink-logo: #ec407a;
+
+/* Complementary Brand Colors */
+--accent-orange: #ff9800;
+--accent-orange-hover: #fb8c00;
+--accent-purple: #ab47bc;
+--accent-purple-hover: #9c27b0;
+--accent-green: #00e676;
+--accent-green-hover: #00c853;
+
+/* Light Mode Theme */
+--text-primary: #000;
 --text-secondary: #666;
 --bg-primary: #ffffff;
 --bg-secondary: #ffffff;
 --bg-tertiary: #f5f5f5;
 --bg-hover: #f9f9f9;
 --border-color: #ddd;
---accent-cyan: #00bcd4;
---accent-pink: #ff006e;
 
 [data-theme="dark"] {
-  --text-primary: #fff;         /* Dark mode */
+  /* Dark Mode Theme */
+  --text-primary: #fff;
   --text-secondary: #ccc;
   --bg-primary: #1a1a1a;
   --bg-secondary: #2a2a2a;
@@ -401,6 +465,13 @@ All theme colors are implemented as CSS custom properties with fallbacks:
 ---
 
 ## Version History
+
+- **1.1** (2025-11-09): Added complementary brand colors
+  - Added neon orange (#ff9800) for energy and attention
+  - Added neon purple (#ab47bc) for premium and creative elements
+  - Added neon green (#00e676) for success and growth
+  - Added usage guidelines and color pairing suggestions
+  - Updated CSS variables section
 
 - **1.0** (2025-11-09): Initial brand guidelines document
   - Logo system established

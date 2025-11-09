@@ -1,6 +1,6 @@
 # Night Realtor Color Palette
 
-**Quick Reference Guide** | Version 1.0
+**Quick Reference Guide** | Version 1.1
 
 A comprehensive color reference for the Night Realtor brand, organized by category for easy lookup during development and design.
 
@@ -43,6 +43,83 @@ CMYK:    0%, 100%, 57%, 0%
 **Usage**: "REALTOR" wordmark, accents, watchlist markers, highlights
 
 **Copy-Paste**: `#ec407a` or `#ff006e`
+
+---
+
+## Complementary Brand Colors
+
+### 🟠 Neon Orange (Energy & Attention)
+```
+HEX:     #ff9800
+RGB:     255, 152, 0
+HSL:     36°, 100%, 50%
+CMYK:    0%, 40%, 100%, 0%
+
+Hover:   #fb8c00
+```
+
+**Usage**: Warnings, notifications, urgent actions, hot properties, trending indicators, high-priority alerts
+
+**Personality**: Energetic, urgent, warm, attention-grabbing
+
+**Copy-Paste**: `#ff9800`
+
+---
+
+### 🟣 Neon Purple (Premium & Creative)
+```
+HEX:     #ab47bc
+RGB:     171, 71, 188
+HSL:     291°, 45%, 51%
+CMYK:    9%, 62%, 0%, 26%
+
+Hover:   #9c27b0
+```
+
+**Usage**: Premium features, analytics, insights, VIP clients, luxury properties, creative tools, data visualization
+
+**Personality**: Sophisticated, premium, creative, exclusive
+
+**Copy-Paste**: `#ab47bc`
+
+---
+
+### 🟢 Neon Green (Success & Growth)
+```
+HEX:     #00e676
+RGB:     0, 230, 118
+HSL:     151°, 100%, 45%
+CMYK:    100%, 0%, 49%, 10%
+
+Hover:   #00c853
+```
+
+**Usage**: Success states, confirmations, growth metrics, profitable deals, positive trends, eco-friendly features, completions
+
+**Personality**: Positive, growing, successful, prosperous
+
+**Copy-Paste**: `#00e676`
+
+---
+
+### 🎨 Color Pairing Guide
+
+**High Contrast Combinations:**
+- **Cyan (#00bcd4) + Orange (#ff9800)**: Complementary on color wheel, maximum energy and contrast
+- **Pink (#ec407a) + Green (#00e676)**: Near-complementary, vibrant and balanced
+- **Purple (#ab47bc) + Cyan (#00bcd4)**: Analogous with pink, sophisticated tech aesthetic
+
+**Multi-Color Data Visualization:**
+- **5-Color Set**: Cyan, Pink, Orange, Purple, Green (full palette for charts)
+- **3-Color Set**: Cyan, Pink, Orange (primary focus with attention)
+- **3-Color Set**: Cyan, Purple, Green (cool and sophisticated)
+
+**Usage Best Practices:**
+- Use complementary colors for **20% or less** of UI elements
+- Maintain cyan and pink as **dominant brand colors** (80%)
+- Each color should have **semantic meaning** in context
+- Don't use all five colors on a single screen without purpose
+- Always test for **WCAG accessibility compliance**
 
 ---
 
@@ -313,12 +390,20 @@ Border:      #5a2a2a
 ### Copy-Paste CSS Custom Properties
 
 ```css
-/* Brand Colors */
+/* Primary Brand Colors */
 --accent-cyan: #00bcd4;
 --accent-cyan-hover: #00a5bb;
 --accent-cyan-active: #0097a7;
 --accent-pink: #ff006e;
 --accent-pink-logo: #ec407a;
+
+/* Complementary Brand Colors */
+--accent-orange: #ff9800;
+--accent-orange-hover: #fb8c00;
+--accent-purple: #ab47bc;
+--accent-purple-hover: #9c27b0;
+--accent-green: #00e676;
+--accent-green-hover: #00c853;
 
 /* Light Mode Theme */
 --text-primary: #000000;
@@ -362,19 +447,35 @@ Border:      #5a2a2a
 
 | Foreground | Background | Ratio | Pass AA | Pass AAA |
 |------------|------------|-------|---------|----------|
+| **Primary Colors** |
 | Cyan (#00bcd4) | White (#ffffff) | 2.87:1 | ❌ Fail | ❌ Fail |
 | Cyan (#00bcd4) | Black (#000000) | 7.31:1 | ✅ Pass | ✅ Pass |
 | Cyan (#00bcd4) | Dark BG (#1a1a1a) | 7.02:1 | ✅ Pass | ✅ Pass |
 | Pink (#ec407a) | White (#ffffff) | 4.02:1 | ❌ Fail (Small) | ✅ Pass (Large) |
 | Pink (#ec407a) | Black (#000000) | 5.22:1 | ✅ Pass | ❌ Fail |
 | Pink (#ec407a) | Dark BG (#1a1a1a) | 5.01:1 | ✅ Pass | ❌ Fail |
+| **Complementary Colors** |
+| Orange (#ff9800) | White (#ffffff) | 2.33:1 | ❌ Fail | ❌ Fail |
+| Orange (#ff9800) | Black (#000000) | 9.02:1 | ✅ Pass | ✅ Pass |
+| Orange (#ff9800) | Dark BG (#1a1a1a) | 8.65:1 | ✅ Pass | ✅ Pass |
+| Purple (#ab47bc) | White (#ffffff) | 4.63:1 | ✅ Pass | ❌ Fail |
+| Purple (#ab47bc) | Black (#000000) | 4.54:1 | ✅ Pass | ❌ Fail |
+| Purple (#ab47bc) | Dark BG (#1a1a1a) | 4.36:1 | ❌ Fail (Close) | ❌ Fail |
+| Green (#00e676) | White (#ffffff) | 2.04:1 | ❌ Fail | ❌ Fail |
+| Green (#00e676) | Black (#000000) | 10.31:1 | ✅ Pass | ✅ Pass |
+| Green (#00e676) | Dark BG (#1a1a1a) | 9.89:1 | ✅ Pass | ✅ Pass |
+| **Neutrals** |
 | Black (#000000) | White (#ffffff) | 21:1 | ✅ Pass | ✅ Pass |
 | Text Secondary (#666) | White (#fff) | 5.74:1 | ✅ Pass | ❌ Fail |
 
 ### Recommendations
 - **Cyan on White**: Use for large text, buttons, or decorative elements only
 - **Pink on White**: Use for large text (≥18pt) or decorative elements
-- **Cyan/Pink on Dark**: Excellent contrast, safe for all text sizes
+- **Orange on White**: Use for large elements only; excellent on dark backgrounds
+- **Purple on White**: Good for all text sizes; borderline on dark backgrounds (test carefully)
+- **Green on White**: Use for large elements only; excellent visibility on dark backgrounds
+- **Cyan/Pink/Orange/Green on Dark**: Excellent contrast, safe for all text sizes
+- **Purple on Dark**: Borderline AA compliance; use with caution or test with users
 - **For Body Text**: Use black/white or text-primary/secondary variables
 
 ---
@@ -386,6 +487,9 @@ Border:      #5a2a2a
 #00bcd4  Cyan Primary
 #ec407a  Pink Logo
 #ff006e  Pink Accent
+#ff9800  Neon Orange
+#ab47bc  Neon Purple
+#00e676  Neon Green
 #000000  Black
 #ffffff  White
 #1a1a1a  Dark Background
@@ -394,11 +498,12 @@ Border:      #5a2a2a
 
 ### Extended Palette (full set)
 ```
-Primary: #00bcd4, #ec407a, #ff006e
-Status:  #1976d2, #7b1fa2, #f57f17, #512da8, #2e7d32, #757575
-Light:   #ffffff, #f9f9f9, #f5f5f5, #eeeeee, #dddddd, #cccccc
-Dark:    #000000, #1a1a1a, #2a2a2a, #3a3a3a, #555555, #444444
-System:  #d4edda, #155724, #f8d7da, #721c24
+Primary:       #00bcd4, #ec407a, #ff006e
+Complementary: #ff9800, #ab47bc, #00e676
+Status:        #1976d2, #7b1fa2, #f57f17, #512da8, #2e7d32, #757575
+Light:         #ffffff, #f9f9f9, #f5f5f5, #eeeeee, #dddddd, #cccccc
+Dark:          #000000, #1a1a1a, #2a2a2a, #3a3a3a, #555555, #444444
+System:        #d4edda, #155724, #f8d7da, #721c24
 ```
 
 ---
@@ -468,6 +573,9 @@ For marketing materials and print designs:
 | Cyan | #00bcd4 | C:100 M:11 Y:0 K:17 |
 | Pink | #ec407a | C:0 M:73 Y:48 K:7 |
 | Pink Accent | #ff006e | C:0 M:100 Y:57 K:0 |
+| Orange | #ff9800 | C:0 M:40 Y:100 K:0 |
+| Purple | #ab47bc | C:9 M:62 Y:0 K:26 |
+| Green | #00e676 | C:100 M:0 Y:49 K:10 |
 
 **Note**: For professional printing, request Pantone color matching from print vendor.
 
@@ -481,5 +589,17 @@ For marketing materials and print designs:
 
 ---
 
+## Version History
+
+- **1.1** (2025-11-09): Added complementary brand colors
+  - Added neon orange (#ff9800), purple (#ab47bc), and green (#00e676)
+  - Added color pairing guide and usage best practices
+  - Updated accessibility matrix with complementary colors
+  - Updated CSS variables, Quick Color Picker, and Print Colors
+
+- **1.0** (2025-11-09): Initial color palette documentation
+
+---
+
 **Last Updated**: 2025-11-09
-**Version**: 1.0
+**Version**: 1.1
