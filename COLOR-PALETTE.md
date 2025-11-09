@@ -175,15 +175,15 @@ Hover:   #00c853
 
 ### 📋 Watchlist Status Badges
 
-| Status | Hex | RGB | Icon | Meaning |
-|--------|-----|-----|------|---------|
-| **Watching** | `#1976d2` | `25, 118, 210` | 📋 | Initial interest |
-| **Interested** | `#7b1fa2` | `123, 31, 162` | 📋 | Serious consideration |
-| **Toured** | `#f57f17` | `245, 127, 23` | 📋 | Viewing completed |
-| **Offer Made** | `#512da8` | `81, 45, 168` | 📋 | In negotiation |
-| **Under Contract** | `#2e7d32` | `46, 125, 50` | 📋 | Deal in progress |
-| **Closed** | `#2e7d32` | `46, 125, 50` | ✅ | Complete |
-| **Passed** | `#757575` | `117, 117, 117` | ❌ | Not interested |
+| Status | Color | Hex | RGB | Icon | Meaning |
+|--------|-------|-----|-----|------|---------|
+| **Watching** | <span style="background-color: #1976d2; color: #1976d2; padding: 0 20px; border: 1px solid #999;">████</span> | `#1976d2` | `25, 118, 210` | 📋 | Initial interest |
+| **Interested** | <span style="background-color: #7b1fa2; color: #7b1fa2; padding: 0 20px; border: 1px solid #999;">████</span> | `#7b1fa2` | `123, 31, 162` | 📋 | Serious consideration |
+| **Toured** | <span style="background-color: #f57f17; color: #f57f17; padding: 0 20px; border: 1px solid #999;">████</span> | `#f57f17` | `245, 127, 23` | 📋 | Viewing completed |
+| **Offer Made** | <span style="background-color: #512da8; color: #512da8; padding: 0 20px; border: 1px solid #999;">████</span> | `#512da8` | `81, 45, 168` | 📋 | In negotiation |
+| **Under Contract** | <span style="background-color: #2e7d32; color: #2e7d32; padding: 0 20px; border: 1px solid #999;">████</span> | `#2e7d32` | `46, 125, 50` | 📋 | Deal in progress |
+| **Closed** | <span style="background-color: #2e7d32; color: #2e7d32; padding: 0 20px; border: 1px solid #999;">████</span> | `#2e7d32` | `46, 125, 50` | ✅ | Complete |
+| **Passed** | <span style="background-color: #757575; color: #757575; padding: 0 20px; border: 1px solid #999;">████</span> | `#757575` | `117, 117, 117` | ❌ | Not interested |
 
 **Copy-Paste Status Colors**:
 - Watching: `#1976d2`
@@ -445,28 +445,28 @@ Border:      #5a2a2a
 
 ### WCAG 2.1 Contrast Ratios (AA = 4.5:1, AAA = 7:1)
 
-| Foreground | Background | Ratio | Pass AA | Pass AAA |
-|------------|------------|-------|---------|----------|
-| **Primary Colors** |
-| Cyan (#00bcd4) | White (#ffffff) | 2.87:1 | ❌ Fail | ❌ Fail |
-| Cyan (#00bcd4) | Black (#000000) | 7.31:1 | ✅ Pass | ✅ Pass |
-| Cyan (#00bcd4) | Dark BG (#1a1a1a) | 7.02:1 | ✅ Pass | ✅ Pass |
-| Pink (#ec407a) | White (#ffffff) | 4.02:1 | ❌ Fail (Small) | ✅ Pass (Large) |
-| Pink (#ec407a) | Black (#000000) | 5.22:1 | ✅ Pass | ❌ Fail |
-| Pink (#ec407a) | Dark BG (#1a1a1a) | 5.01:1 | ✅ Pass | ❌ Fail |
-| **Complementary Colors** |
-| Orange (#ff9800) | White (#ffffff) | 2.33:1 | ❌ Fail | ❌ Fail |
-| Orange (#ff9800) | Black (#000000) | 9.02:1 | ✅ Pass | ✅ Pass |
-| Orange (#ff9800) | Dark BG (#1a1a1a) | 8.65:1 | ✅ Pass | ✅ Pass |
-| Purple (#ab47bc) | White (#ffffff) | 4.63:1 | ✅ Pass | ❌ Fail |
-| Purple (#ab47bc) | Black (#000000) | 4.54:1 | ✅ Pass | ❌ Fail |
-| Purple (#ab47bc) | Dark BG (#1a1a1a) | 4.36:1 | ❌ Fail (Close) | ❌ Fail |
-| Green (#00e676) | White (#ffffff) | 2.04:1 | ❌ Fail | ❌ Fail |
-| Green (#00e676) | Black (#000000) | 10.31:1 | ✅ Pass | ✅ Pass |
-| Green (#00e676) | Dark BG (#1a1a1a) | 9.89:1 | ✅ Pass | ✅ Pass |
-| **Neutrals** |
-| Black (#000000) | White (#ffffff) | 21:1 | ✅ Pass | ✅ Pass |
-| Text Secondary (#666) | White (#fff) | 5.74:1 | ✅ Pass | ❌ Fail |
+| Color | Foreground | Background | Ratio | Pass AA | Pass AAA |
+|-------|------------|------------|-------|---------|----------|
+| | **Primary Colors** |
+| <span style="background-color: #00bcd4; color: #00bcd4; padding: 0 15px; border: 1px solid #999;">███</span> | Cyan (#00bcd4) | White (#ffffff) | 2.87:1 | ❌ Fail | ❌ Fail |
+| <span style="background-color: #00bcd4; color: #00bcd4; padding: 0 15px; border: 1px solid #999;">███</span> | Cyan (#00bcd4) | Black (#000000) | 7.31:1 | ✅ Pass | ✅ Pass |
+| <span style="background-color: #00bcd4; color: #00bcd4; padding: 0 15px; border: 1px solid #999;">███</span> | Cyan (#00bcd4) | Dark BG (#1a1a1a) | 7.02:1 | ✅ Pass | ✅ Pass |
+| <span style="background-color: #ec407a; color: #ec407a; padding: 0 15px; border: 1px solid #999;">███</span> | Pink (#ec407a) | White (#ffffff) | 4.02:1 | ❌ Fail (Small) | ✅ Pass (Large) |
+| <span style="background-color: #ec407a; color: #ec407a; padding: 0 15px; border: 1px solid #999;">███</span> | Pink (#ec407a) | Black (#000000) | 5.22:1 | ✅ Pass | ❌ Fail |
+| <span style="background-color: #ec407a; color: #ec407a; padding: 0 15px; border: 1px solid #999;">███</span> | Pink (#ec407a) | Dark BG (#1a1a1a) | 5.01:1 | ✅ Pass | ❌ Fail |
+| | **Complementary Colors** |
+| <span style="background-color: #ff9800; color: #ff9800; padding: 0 15px; border: 1px solid #999;">███</span> | Orange (#ff9800) | White (#ffffff) | 2.33:1 | ❌ Fail | ❌ Fail |
+| <span style="background-color: #ff9800; color: #ff9800; padding: 0 15px; border: 1px solid #999;">███</span> | Orange (#ff9800) | Black (#000000) | 9.02:1 | ✅ Pass | ✅ Pass |
+| <span style="background-color: #ff9800; color: #ff9800; padding: 0 15px; border: 1px solid #999;">███</span> | Orange (#ff9800) | Dark BG (#1a1a1a) | 8.65:1 | ✅ Pass | ✅ Pass |
+| <span style="background-color: #ab47bc; color: #ab47bc; padding: 0 15px; border: 1px solid #999;">███</span> | Purple (#ab47bc) | White (#ffffff) | 4.63:1 | ✅ Pass | ❌ Fail |
+| <span style="background-color: #ab47bc; color: #ab47bc; padding: 0 15px; border: 1px solid #999;">███</span> | Purple (#ab47bc) | Black (#000000) | 4.54:1 | ✅ Pass | ❌ Fail |
+| <span style="background-color: #ab47bc; color: #ab47bc; padding: 0 15px; border: 1px solid #999;">███</span> | Purple (#ab47bc) | Dark BG (#1a1a1a) | 4.36:1 | ❌ Fail (Close) | ❌ Fail |
+| <span style="background-color: #00e676; color: #00e676; padding: 0 15px; border: 1px solid #999;">███</span> | Green (#00e676) | White (#ffffff) | 2.04:1 | ❌ Fail | ❌ Fail |
+| <span style="background-color: #00e676; color: #00e676; padding: 0 15px; border: 1px solid #999;">███</span> | Green (#00e676) | Black (#000000) | 10.31:1 | ✅ Pass | ✅ Pass |
+| <span style="background-color: #00e676; color: #00e676; padding: 0 15px; border: 1px solid #999;">███</span> | Green (#00e676) | Dark BG (#1a1a1a) | 9.89:1 | ✅ Pass | ✅ Pass |
+| | **Neutrals** |
+| <span style="background-color: #000000; color: #000000; padding: 0 15px; border: 1px solid #999;">███</span> | Black (#000000) | White (#ffffff) | 21:1 | ✅ Pass | ✅ Pass |
+| <span style="background-color: #666666; color: #666666; padding: 0 15px; border: 1px solid #999;">███</span> | Text Secondary (#666) | White (#fff) | 5.74:1 | ✅ Pass | ❌ Fail |
 
 ### Recommendations
 - **Cyan on White**: Use for large text, buttons, or decorative elements only
