@@ -177,13 +177,13 @@ Hover:   #00c853
 
 | Status | Color | Hex | RGB | Icon | Meaning |
 |--------|-------|-----|-----|------|---------|
-| **Watching** | <span style="background-color: #1976d2; color: #1976d2; padding: 0 20px; border: 1px solid #999;">████</span> | `#1976d2` | `25, 118, 210` | 📋 | Initial interest |
-| **Interested** | <span style="background-color: #7b1fa2; color: #7b1fa2; padding: 0 20px; border: 1px solid #999;">████</span> | `#7b1fa2` | `123, 31, 162` | 📋 | Serious consideration |
-| **Toured** | <span style="background-color: #f57f17; color: #f57f17; padding: 0 20px; border: 1px solid #999;">████</span> | `#f57f17` | `245, 127, 23` | 📋 | Viewing completed |
-| **Offer Made** | <span style="background-color: #512da8; color: #512da8; padding: 0 20px; border: 1px solid #999;">████</span> | `#512da8` | `81, 45, 168` | 📋 | In negotiation |
-| **Under Contract** | <span style="background-color: #2e7d32; color: #2e7d32; padding: 0 20px; border: 1px solid #999;">████</span> | `#2e7d32` | `46, 125, 50` | 📋 | Deal in progress |
-| **Closed** | <span style="background-color: #2e7d32; color: #2e7d32; padding: 0 20px; border: 1px solid #999;">████</span> | `#2e7d32` | `46, 125, 50` | ✅ | Complete |
-| **Passed** | <span style="background-color: #757575; color: #757575; padding: 0 20px; border: 1px solid #999;">████</span> | `#757575` | `117, 117, 117` | ❌ | Not interested |
+| **Watching** | ![#1976d2](https://via.placeholder.com/50x20/1976d2/1976d2.png) | `#1976d2` | `25, 118, 210` | 📋 | Initial interest |
+| **Interested** | ![#7b1fa2](https://via.placeholder.com/50x20/7b1fa2/7b1fa2.png) | `#7b1fa2` | `123, 31, 162` | 📋 | Serious consideration |
+| **Toured** | ![#f57f17](https://via.placeholder.com/50x20/f57f17/f57f17.png) | `#f57f17` | `245, 127, 23` | 📋 | Viewing completed |
+| **Offer Made** | ![#512da8](https://via.placeholder.com/50x20/512da8/512da8.png) | `#512da8` | `81, 45, 168` | 📋 | In negotiation |
+| **Under Contract** | ![#2e7d32](https://via.placeholder.com/50x20/2e7d32/2e7d32.png) | `#2e7d32` | `46, 125, 50` | 📋 | Deal in progress |
+| **Closed** | ![#2e7d32](https://via.placeholder.com/50x20/2e7d32/2e7d32.png) | `#2e7d32` | `46, 125, 50` | ✅ | Complete |
+| **Passed** | ![#757575](https://via.placeholder.com/50x20/757575/757575.png) | `#757575` | `117, 117, 117` | ❌ | Not interested |
 
 **Copy-Paste Status Colors**:
 - Watching: `#1976d2`
@@ -448,25 +448,25 @@ Border:      #5a2a2a
 | Color | Foreground | Background | Ratio | Pass AA | Pass AAA |
 |-------|------------|------------|-------|---------|----------|
 | | **Primary Colors** |
-| <span style="background-color: #00bcd4; color: #00bcd4; padding: 0 15px; border: 1px solid #999;">███</span> | Cyan (#00bcd4) | White (#ffffff) | 2.87:1 | ❌ Fail | ❌ Fail |
-| <span style="background-color: #00bcd4; color: #00bcd4; padding: 0 15px; border: 1px solid #999;">███</span> | Cyan (#00bcd4) | Black (#000000) | 7.31:1 | ✅ Pass | ✅ Pass |
-| <span style="background-color: #00bcd4; color: #00bcd4; padding: 0 15px; border: 1px solid #999;">███</span> | Cyan (#00bcd4) | Dark BG (#1a1a1a) | 7.02:1 | ✅ Pass | ✅ Pass |
-| <span style="background-color: #ec407a; color: #ec407a; padding: 0 15px; border: 1px solid #999;">███</span> | Pink (#ec407a) | White (#ffffff) | 4.02:1 | ❌ Fail (Small) | ✅ Pass (Large) |
-| <span style="background-color: #ec407a; color: #ec407a; padding: 0 15px; border: 1px solid #999;">███</span> | Pink (#ec407a) | Black (#000000) | 5.22:1 | ✅ Pass | ❌ Fail |
-| <span style="background-color: #ec407a; color: #ec407a; padding: 0 15px; border: 1px solid #999;">███</span> | Pink (#ec407a) | Dark BG (#1a1a1a) | 5.01:1 | ✅ Pass | ❌ Fail |
+| ![#00bcd4](https://via.placeholder.com/40x20/00bcd4/00bcd4.png) | Cyan (#00bcd4) | White (#ffffff) | 2.87:1 | ❌ Fail | ❌ Fail |
+| ![#00bcd4](https://via.placeholder.com/40x20/00bcd4/00bcd4.png) | Cyan (#00bcd4) | Black (#000000) | 7.31:1 | ✅ Pass | ✅ Pass |
+| ![#00bcd4](https://via.placeholder.com/40x20/00bcd4/00bcd4.png) | Cyan (#00bcd4) | Dark BG (#1a1a1a) | 7.02:1 | ✅ Pass | ✅ Pass |
+| ![#ec407a](https://via.placeholder.com/40x20/ec407a/ec407a.png) | Pink (#ec407a) | White (#ffffff) | 4.02:1 | ❌ Fail (Small) | ✅ Pass (Large) |
+| ![#ec407a](https://via.placeholder.com/40x20/ec407a/ec407a.png) | Pink (#ec407a) | Black (#000000) | 5.22:1 | ✅ Pass | ❌ Fail |
+| ![#ec407a](https://via.placeholder.com/40x20/ec407a/ec407a.png) | Pink (#ec407a) | Dark BG (#1a1a1a) | 5.01:1 | ✅ Pass | ❌ Fail |
 | | **Complementary Colors** |
-| <span style="background-color: #ff9800; color: #ff9800; padding: 0 15px; border: 1px solid #999;">███</span> | Orange (#ff9800) | White (#ffffff) | 2.33:1 | ❌ Fail | ❌ Fail |
-| <span style="background-color: #ff9800; color: #ff9800; padding: 0 15px; border: 1px solid #999;">███</span> | Orange (#ff9800) | Black (#000000) | 9.02:1 | ✅ Pass | ✅ Pass |
-| <span style="background-color: #ff9800; color: #ff9800; padding: 0 15px; border: 1px solid #999;">███</span> | Orange (#ff9800) | Dark BG (#1a1a1a) | 8.65:1 | ✅ Pass | ✅ Pass |
-| <span style="background-color: #ab47bc; color: #ab47bc; padding: 0 15px; border: 1px solid #999;">███</span> | Purple (#ab47bc) | White (#ffffff) | 4.63:1 | ✅ Pass | ❌ Fail |
-| <span style="background-color: #ab47bc; color: #ab47bc; padding: 0 15px; border: 1px solid #999;">███</span> | Purple (#ab47bc) | Black (#000000) | 4.54:1 | ✅ Pass | ❌ Fail |
-| <span style="background-color: #ab47bc; color: #ab47bc; padding: 0 15px; border: 1px solid #999;">███</span> | Purple (#ab47bc) | Dark BG (#1a1a1a) | 4.36:1 | ❌ Fail (Close) | ❌ Fail |
-| <span style="background-color: #00e676; color: #00e676; padding: 0 15px; border: 1px solid #999;">███</span> | Green (#00e676) | White (#ffffff) | 2.04:1 | ❌ Fail | ❌ Fail |
-| <span style="background-color: #00e676; color: #00e676; padding: 0 15px; border: 1px solid #999;">███</span> | Green (#00e676) | Black (#000000) | 10.31:1 | ✅ Pass | ✅ Pass |
-| <span style="background-color: #00e676; color: #00e676; padding: 0 15px; border: 1px solid #999;">███</span> | Green (#00e676) | Dark BG (#1a1a1a) | 9.89:1 | ✅ Pass | ✅ Pass |
+| ![#ff9800](https://via.placeholder.com/40x20/ff9800/ff9800.png) | Orange (#ff9800) | White (#ffffff) | 2.33:1 | ❌ Fail | ❌ Fail |
+| ![#ff9800](https://via.placeholder.com/40x20/ff9800/ff9800.png) | Orange (#ff9800) | Black (#000000) | 9.02:1 | ✅ Pass | ✅ Pass |
+| ![#ff9800](https://via.placeholder.com/40x20/ff9800/ff9800.png) | Orange (#ff9800) | Dark BG (#1a1a1a) | 8.65:1 | ✅ Pass | ✅ Pass |
+| ![#ab47bc](https://via.placeholder.com/40x20/ab47bc/ab47bc.png) | Purple (#ab47bc) | White (#ffffff) | 4.63:1 | ✅ Pass | ❌ Fail |
+| ![#ab47bc](https://via.placeholder.com/40x20/ab47bc/ab47bc.png) | Purple (#ab47bc) | Black (#000000) | 4.54:1 | ✅ Pass | ❌ Fail |
+| ![#ab47bc](https://via.placeholder.com/40x20/ab47bc/ab47bc.png) | Purple (#ab47bc) | Dark BG (#1a1a1a) | 4.36:1 | ❌ Fail (Close) | ❌ Fail |
+| ![#00e676](https://via.placeholder.com/40x20/00e676/00e676.png) | Green (#00e676) | White (#ffffff) | 2.04:1 | ❌ Fail | ❌ Fail |
+| ![#00e676](https://via.placeholder.com/40x20/00e676/00e676.png) | Green (#00e676) | Black (#000000) | 10.31:1 | ✅ Pass | ✅ Pass |
+| ![#00e676](https://via.placeholder.com/40x20/00e676/00e676.png) | Green (#00e676) | Dark BG (#1a1a1a) | 9.89:1 | ✅ Pass | ✅ Pass |
 | | **Neutrals** |
-| <span style="background-color: #000000; color: #000000; padding: 0 15px; border: 1px solid #999;">███</span> | Black (#000000) | White (#ffffff) | 21:1 | ✅ Pass | ✅ Pass |
-| <span style="background-color: #666666; color: #666666; padding: 0 15px; border: 1px solid #999;">███</span> | Text Secondary (#666) | White (#fff) | 5.74:1 | ✅ Pass | ❌ Fail |
+| ![#000000](https://via.placeholder.com/40x20/000000/000000.png) | Black (#000000) | White (#ffffff) | 21:1 | ✅ Pass | ✅ Pass |
+| ![#666666](https://via.placeholder.com/40x20/666666/666666.png) | Text Secondary (#666) | White (#fff) | 5.74:1 | ✅ Pass | ❌ Fail |
 
 ### Recommendations
 - **Cyan on White**: Use for large text, buttons, or decorative elements only
