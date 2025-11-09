@@ -1,0 +1,137 @@
+.contact-list {
+  background: var(--bg-secondary, white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+[data-theme="dark"] .contact-list {
+  background: var(--bg-secondary, #2a2a2a);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.contacts-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.contacts-table thead {
+  background-color: var(--bg-tertiary, #f5f5f5);
+  border-bottom: 2px solid var(--border-color, #ddd);
+}
+
+[data-theme="dark"] .contacts-table thead {
+  background-color: var(--bg-tertiary, #3a3a3a);
+  border-bottom-color: #555;
+}
+
+.contacts-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.contacts-table td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color, #eee);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .contacts-table td {
+  border-bottom-color: #444;
+}
+
+.contacts-table tbody tr:hover {
+  background-color: var(--bg-hover, #f9f9f9);
+}
+
+[data-theme="dark"] .contacts-table tbody tr:hover {
+  background-color: var(--bg-hover, #3a3a3a);
+}
+
+.contact-name {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.primary-badge {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  background-color: var(--accent-cyan, #00bcd4);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+[data-theme="dark"] .primary-badge {
+  background-color: var(--accent-cyan, #00bcd4);
+  color: #1a1a1a;
+}
+
+.primary-contact-row {
+  background-color: rgba(0, 188, 212, 0.05);
+}
+
+[data-theme="dark"] .primary-contact-row {
+  background-color: rgba(0, 188, 212, 0.1);
+}
+
+.contact-relationship {
+  color: var(--text-secondary);
+}
+
+.contact-email,
+.contact-phone {
+  color: var(--text-secondary);
+}
+
+.contact-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.contact-list-empty {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.primary-contact-note {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .contacts-table {
+    font-size: 0.85rem;
+  }
+
+  .contacts-table th,
+  .contacts-table td {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .contacts-table th:nth-child(3),
+  .contacts-table td:nth-child(3),
+  .contacts-table th:nth-child(4),
+  .contacts-table td:nth-child(4) {
+    display: none;
+  }
+
+  .contact-actions {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}
